@@ -2,6 +2,18 @@
 
 Simple todo with saving to file
 
+## installation
+
+clone repo
+
+`git clone git@github.com:mattlozinski/todo.git`
+
+compile
+
+`g++ main.cc -o todo`
+
+optionally move `todo` to `/bin` or `/usr/bin`
+
 ## usage
 
 ```
