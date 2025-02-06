@@ -2,45 +2,33 @@
 
 Simple todo with saving to file
 
-## installation
-
-clone repo
-
-`git clone git@github.com:mattlozinski/todo.git`
-
-compile
-
-`g++ main.cc -o todo`
-
-optionally move `todo` to `/bin` or `/usr/bin`
-
 ## usage
 
+Usage: `todo [command] [arguments]`
+
+### available commands
+
+- `list`, `l`
+    - shows all tasks
+    - default, when no command given
+- `add`, `a`
+    - adds tasks separated by space
+- `done`, `d`
+    - marks tasks with given indexes as done
+- `undo`, `u`
+    - unmarks tasks with given indexes as done
+- `rm`, `r`
+    - removes tasks with given indexes
+- `sort`, `s`
+    - sorts all task by status, uncompleted first
+- `help`, `h`
+    - show this help message
+
+### examples
 ```
-Simple todo with saving to file
-Usage: todo [command] [arguments]
-
-Available commands:
-- list, l
-   shows all tasks
-   default, when no command given
-- add, a
-   adds tasks separated by space
-- done, d
-   marks tasks with given indexes as done
-- undo, u
-   unmarks tasks with given indexes as done
-- rm, r
-   removes tasks with given indexes
-- sort, s
-   sorts all task by status, uncompleted first
-- help, h
-   show this help message
-
-Examples:
-   todo add "clean the house" milk oranges
-   todo done 2 3
-   todo rm 1
+todo add "clean the house" milk oranges
+todo done 2 3
+todo rm 1
 ```
 
 ## note
