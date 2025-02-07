@@ -44,7 +44,6 @@ If you encounter any bugs, feel free to open issues
 ### future features
 
 - configuration file
-- clever implementation of keeping list in memory for changes
 - more sorting options
 - marking done/removing all items
 - terminal completion
