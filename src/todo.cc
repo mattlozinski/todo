@@ -8,7 +8,7 @@ using std::cout, std::cerr, std::endl;
 
 int main(int argc, char **argv){
     std::string path = getenv("HOME");
-    path += "/todo";
+    path += "/.todo";
     std::vector<Task> todo;
     loadTodo(path, &todo);
 
