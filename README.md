@@ -1,6 +1,12 @@
 # todo
 
-Simple todo with saving to file
+simple todo with saving to file
+
+## installation
+
+`g++ src/todo.cc -o todo`
+
+optionally move `todo` to `/usr/bin` or `/bin`
 
 ## usage
 
@@ -31,7 +37,7 @@ todo done 2 3
 todo rm 1
 ```
 
-## note
+## about project
 
 If you encounter any bugs, feel free to open issues
 
