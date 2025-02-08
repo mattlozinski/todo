@@ -1,3 +1,4 @@
+#pragma once
 #include <fstream>
 bool formatOut(const Task task, std::string *line);
 bool formatIn(const std::string line, Task *task);

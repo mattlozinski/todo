@@ -1,3 +1,4 @@
+#pragma once
 struct Task {
     bool done = false, removed = false;
     std::string literal;
