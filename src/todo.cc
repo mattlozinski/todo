@@ -2,9 +2,9 @@
 #include <iostream>
 using std::cout, std::cerr, std::endl;
 #include <vector>
-#include "logic.h"
-#include "reader.h"
-#include "error.h"
+#include "logic.cc"
+#include "reader.cc"
+#include "error.cc"
 
 int main(int argc, char **argv){
     std::string path = getenv("HOME");
