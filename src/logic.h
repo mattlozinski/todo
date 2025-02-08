@@ -1,11 +1,12 @@
+#include "colorizer.h"
 #pragma once
 struct Task {
     bool done = false, removed = false;
     std::string literal;
     bool show(int pos = 0){
         if (removed) return false;
-        cout << "\e[1m" << pos << "\e[0m ";
-        if (done) cout << "\e[9m"+literal+"\e[0m" << endl;
+        cout << style::bold(std::to_string(pos)) << " ";
+        if (done) cout << style::strike(literal) << endl;
         else cout << literal << endl;
         return true;
     }
